@@ -24,7 +24,7 @@ public class TabuadaServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
 	static CalculadoraService calculadoraService = new CalculadoraService();
-
+ 
 	@Override
 	public final void doGet(final HttpServletRequest req, final HttpServletResponse resp)
 			throws ServletException, IOException {
